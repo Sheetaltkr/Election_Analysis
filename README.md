@@ -83,7 +83,7 @@ Software: Python 3.7, Visual Studio Code 1.59
 ![Election_analysis.txt](https://github.com/Sheetaltkr/Election_Analysis/blob/main/analysis/Election_results_saved_textfile.png)
 
 ## Election-Audit Results:
--	There were 369,711 votes cast in the election
+-	There were **369,711** votes cast in the election
 -	The counties in the precinct were-
 	-	Jefferson
 	-	Denver
