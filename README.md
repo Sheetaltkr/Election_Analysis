@@ -80,7 +80,8 @@ Software: Python 3.7, Visual Studio Code 1.59
 
 ![Command line output](https://github.com/Sheetaltkr/Election_Analysis/blob/main/analysis/Election_results_printed_to_commandLine.png)
 
-##Election-Audit Results: 
+##Election-Audit Results:
+
 ![Election_analysis.txt](https://github.com/Sheetaltkr/Election_Analysis/blob/main/analysis/Election_results_saved_textfile.png)
 
 Using a bulleted list, address the following election outcomes. Use images or examples of your code as support where necessary.
