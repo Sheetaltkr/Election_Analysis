@@ -80,10 +80,11 @@ Software: Python 3.7, Visual Studio Code 1.59
 
 ![Command line output](https://github.com/Sheetaltkr/Election_Analysis/blob/main/analysis/Election_results_printed_to_commandLine.png)
 
-##Election-Audit Results:
+####Election analysis text file output:
 
 ![Election_analysis.txt](https://github.com/Sheetaltkr/Election_Analysis/blob/main/analysis/Election_results_saved_textfile.png)
 
+##Election-Audit Results:
 Using a bulleted list, address the following election outcomes. Use images or examples of your code as support where necessary.
 
 ####How many votes were cast in this congressional election?
