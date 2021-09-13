@@ -1,9 +1,7 @@
-#Election Analysis- 
-#
-##Overview of Election Audit: 
-
-###Purpose
-1) To provide **Colorado Board of Elections** below election **audit data** to help them analyze the congressional elections conducted in  **Jefferson**, **Denver** and **Arapahoe** counties with help from Tom and Seth.
+# Election Analysis- 
+## Overview of Election Audit: 
+### Purpose
+1) Provide **Colorado Board of Elections** below election **audit data** to help them analyze the congressional elections conducted in  **Jefferson**, **Denver** and **Arapahoe** counties with help from Tom and Seth.
 
 -	Total votes for the election
 -	Candidate names
@@ -17,12 +15,12 @@
 
 2) Provide a **written analysis** of the **election audit** results with your useful findings to the Election Commission.
 
-##Resources
+## Resources
 Data source: election_results.cvs
 
 Software: Python 3.7, Visual Studio Code 1.59
 
-##Election-Audit Python program
+## Election-Audit Python program
 
 1) Source File: [election_results.csv](https://github.com/Sheetaltkr/Election_Analysis/blob/main/Resources/election_results.csv) 
 
@@ -30,7 +28,7 @@ Software: Python 3.7, Visual Studio Code 1.59
 
 3) Program code:[PyPoll_Challenge.py](https://github.com/Sheetaltkr/Election_Analysis/blob/main/PyPoll_Challenge.py)
 
-####Program Algorithm:
+#### Program Algorithm:
 
 1. Set the source file path for election_results.csv
 
@@ -76,15 +74,15 @@ Software: Python 3.7, Visual Studio Code 1.59
 13. Print the winning candidate results to the terminal
 11. Write winning candidate results to output file
 
-####Command line Output:
+#### Command line Output:
 
 ![Command line output](https://github.com/Sheetaltkr/Election_Analysis/blob/main/analysis/Election_results_printed_to_commandLine.png)
 
-####Election analysis text file output:
+#### Election analysis text file output:
 
 ![Election_analysis.txt](https://github.com/Sheetaltkr/Election_Analysis/blob/main/analysis/Election_results_saved_textfile.png)
 
-##Election-Audit Results:
+## Election-Audit Results:
 -	There were 369,711 votes cast in the election
 -	The counties in the precinct were-
 	-	Jefferson
@@ -106,9 +104,9 @@ Software: Python 3.7, Visual Studio Code 1.59
 -	The winner of the election was **Diana DeGette** who received  **73.8%** of the votes and **272,892** number of votes
 
 
-##Election-Audit Summary: 
+## Election-Audit Summary: 
 
-####Business proposal for Election Commission
+#### Business proposal for Election Commission
 
 - Federal, state, local and tribal elections
 	- New functionality to count votes at state level by including additional source data columns like state,office, district,party, year of elections as required. This will provide the analysis for elections at  various levels.
