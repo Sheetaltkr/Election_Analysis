@@ -85,19 +85,36 @@ Software: Python 3.7, Visual Studio Code 1.59
 ![Election_analysis.txt](https://github.com/Sheetaltkr/Election_Analysis/blob/main/analysis/Election_results_saved_textfile.png)
 
 ##Election-Audit Results:
-Using a bulleted list, address the following election outcomes. Use images or examples of your code as support where necessary.
-
-####How many votes were cast in this congressional election?
-Provide a breakdown of the number of votes and the percentage of total votes for each county in the precinct.
-
-####Which county had the largest number of votes?
-Provide a breakdown of the number of votes and the percentage of the total votes each candidate received.
-
-####Which candidate won the election, what was their vote count, and what was their percentage of the total votes?
+-	There were 369,711 votes cast in the election
+-	The counties in the precinct were-
+	-	Jefferson
+	-	Denver
+	-	Arapahoe
+-	The county results were-
+	-	Jefferson received **10.5%** of the votes and **38,855** number of votes
+	-	Denver received **82.8%** of the votes and **306,055** number of votes
+	-	Arapahoe received **6.7%** of the votes **24,801** number of votes
+-	The County  with largest turnout: **Denver**
+-	The candidates were-
+	-	Charles Casper Stockham
+	-	Diana DeGette
+	-	Raymon Anthony Doane
+-	The candidate results as were-
+	-	Charles Casper Stockham received **23.0%** of the votes and **85,213** number of votes
+	-	Diana DeGette received **73.8%** of the votes and **272,892** number of votes
+	-	Raymon Anthony Doane received **3.1%** of the votes **11,606** number of votes
+-	The winner of the election was **Diana DeGette** who received  **73.8%** of the votes and **272,892** number of votes
 
 
 ##Election-Audit Summary: 
 
-In a summary statement, provide a business proposal to the election commission on how this script can be used—with some modifications—for any election. 
+####Business proposal for Election Commission
 
-two examples of how this script can be modified to be used for other elections.
+- Federal, state, local and tribal elections
+	- New functionality to count votes at state level by including additional source data columns like state,office, district,party, year of elections as required. This will provide the analysis for elections at  various levels.
+- Graphs
+	- Using `Matplotlib` library in python the script can be used to generate year-wise, state-wise, district-wise graphs. The graphs can be drawn for any dimensions and metrics like vote counts and vote percentage.
+- Categorize Election results
+	- Using conditional analysis the script can help determine if elections were successful or not using specific success criteria.
+- Support multiple Data sources
+	- The script can be modified to use various data source types like database, real-time feeds, JSON files etc.
