@@ -108,13 +108,13 @@ Software: Python 3.7, Visual Studio Code 1.59
 
 #### Business proposal for Election Commission
 
-- Federal, state, local and tribal elections
+- **Introduce Federal, state, local and tribal election categories**
 	- New functionality to count votes at state level by including additional source data columns like state,office, district,party, year of elections as required. This will provide the analysis for elections at  various levels.
-	- Example 1: Add new dictionary to hold data for different states and its votes. One can calculate state vote percent and total state votes.
-	- Example 2: Add new dictionary to hold data for different years. One can calculate yearly vote percent and total yearly votes.
-- Graphs
+	- ***Example 1**: Add new dictionary to hold data for different states and its votes. One can calculate state vote percent and total state votes.
+	- ***Example 2**: Add new dictionary to hold data for different years. One can calculate yearly vote percent and total yearly votes.
+- **Graphs**
 	- Using `Matplotlib` library in python the script can be used to generate year-wise, state-wise, district-wise graphs. The graphs can be drawn for any dimensions and metrics like vote counts and vote percentage.
-- Categorize Election results
+- **Categorize Election results**
 	- Using conditional analysis the script can help determine if elections were successful or not using specific success criteria.
-- Support multiple Data sources
+- **Support multiple Data sources**
 	- The script can be modified to use various data source types like database, real-time feeds, JSON files etc.
